@@ -15,7 +15,7 @@ class Blockchain{
     }
 
     replaceChain(chain){
-        if(chain<= this.chain.length){
+        if(chain.length <= this.chain.length){
             console.log("The incoming chain is not longer");
             return;
         }
@@ -43,14 +43,14 @@ class Blockchain{
     }
 }
 
-const blockchain = new Blockchain();
-blockchain.addBlock({data:"Block 1"});
+// const blockchain = new Blockchain();
+// blockchain.addBlock({data:"Block 1"});
 
-const result = Blockchain.isValidchain(blockchain.chain);
+// const result = Blockchain.isValidchain(blockchain.chain);
 
-console.log(blockchain);
+// console.log(blockchain);
 
-console.log(result);
+// console.log(result);
 // console.log(blockchain);
 
 module.exports = Blockchain;

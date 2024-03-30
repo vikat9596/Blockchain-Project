@@ -15,6 +15,9 @@
     "body-parser": "^1.20.2",
     "express": "^4.19.2",
     "hex-to-binary": "^1.0.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.0"
   }
 }
